@@ -1,1 +1,155 @@
-<!DOCTYPE html><html lang="id"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Salsa Cake Shop</title><style>*{margin:0;padding:0;box-sizing:border-box;font-family:sans-serif}body{background:#fff7f8;color:#5c4b51}header{background:linear-gradient(135deg,#ffd6e7,#ffeccf);padding:40px 20px;text-align:center;border-radius:0 0 35px 35px}h1{font-size:45px;color:#ff6fa1}p{margin-top:10px}.menu{padding:40px 20px;display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px}.card{background:#fff;border-radius:20px;overflow:hidden;box-shadow:0 4px 10px rgba(0,0,0,.1)}img{width:100%;height:220px;object-fit:cover}.c{padding:15px;text-align:center}h2{color:#ff7aa2;font-size:22px}.price{font-size:20px;font-weight:bold;margin:10px 0}.btn{background:#ffc2d4;border:none;padding:10px 20px;border-radius:30px}.btn:hover{background:#ff9fbe;color:#fff}footer{text-align:center;padding:20px;background:#ffe6ef;margin-top:30px}</style></head><body><header><h1>Salsa Cake Shop</h1><p>Sweet desserts with pastel vibes ✨</p></header><section class="menu"><div class="card"><img src="https://images.unsplash.com/photo-1558326567-98ae2405596b?auto=format&fit=crop&w=800&q=80"><div class="c"><h2>Macarons</h2><div class="price">Rp40K</div><button class="btn">Buy</button></div></div><div class="card"><img src="https://images.unsplash.com/photo-1499636136210-6f4ee915583e?auto=format&fit=crop&w=800&q=80"><div class="c"><h2>Cookies</h2><div class="price">Rp75K</div><button class="btn">Buy</button></div></div><div class="card"><img src="https://images.unsplash.com/photo-1486427944299-d1955d23e34d?auto=format&fit=crop&w=800&q=80"><div class="c"><h2>Cupcake</h2><div class="price">Rp25K</div><button class="btn">Buy</button></div></div></section><footer>© 2026 Salsa Cake Shop 💖</footer></body></html>
+<!<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Salsa Cake Shop</title>
+
+  <style>
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body{
+      background:#fff7f8;
+      color:#5c4b51;
+    }
+
+    header{
+      background:linear-gradient(135deg,#ffd6e7,#ffeccf);
+      padding:40px 20px;
+      text-align:center;
+      border-bottom-left-radius:40px;
+      border-bottom-right-radius:40px;
+      box-shadow:0 4px 10px rgba(0,0,0,0.08);
+    }
+
+    header h1{
+      font-size:48px;
+      color:#ff6fa1;
+    }
+
+    header p{
+      margin-top:10px;
+      font-size:18px;
+      color:#7a5d66;
+    }
+
+    .menu{
+      padding:50px 20px;
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+      gap:30px;
+      max-width:1200px;
+      margin:auto;
+    }
+
+    .card{
+      background:#fff;
+      border-radius:25px;
+      overflow:hidden;
+      box-shadow:0 6px 15px rgba(0,0,0,0.08);
+      transition:0.3s;
+    }
+
+    .card:hover{
+      transform:translateY(-8px);
+    }
+
+    .card img{
+      width:100%;
+      height:250px;
+      object-fit:cover;
+    }
+
+    .card-content{
+      padding:20px;
+      text-align:center;
+    }
+
+    .card-content h2{
+      color:#ff7aa2;
+      margin-bottom:10px;
+    }
+
+    .price{
+      font-size:22px;
+      font-weight:bold;
+      color:#7a5d66;
+      margin-bottom:15px;
+    }
+
+    .btn{
+      background:#ffc2d4;
+      border:none;
+      padding:12px 25px;
+      border-radius:30px;
+      cursor:pointer;
+      font-size:16px;
+      color:#5c4b51;
+      transition:0.3s;
+    }
+
+    .btn:hover{
+      background:#ff9fbe;
+      color:white;
+    }
+
+    footer{
+      text-align:center;
+      padding:20px;
+      background:#ffe6ef;
+      margin-top:40px;
+      color:#7a5d66;
+      border-top-left-radius:30px;
+      border-top-right-radius:30px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Salsa Cake Shop</h1>
+    <p>Sweet desserts with pastel vibes ✨</p>
+  </header>
+
+  <section class="menu">
+
+    <div class="card">
+      <img src="macaron.jpg" alt="Macarons">
+      <div class="card-content">
+        <h2>Super Yummy Macarons</h2>
+        <div class="price">Rp40.000</div>
+        <button class="btn">Buy Now</button>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="cookies.jpg" alt="Cookies Lotus">
+      <div class="card-content">
+        <h2>Cookies Lotus Yum</h2>
+        <div class="price">Rp75.000</div>
+        <button class="btn">Buy Now</button>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="cupcake.jpg" alt="Cupcake">
+      <div class="card-content">
+        <h2>Cupcake Super Wow</h2>
+        <div class="price">Rp25.000</div>
+        <button class="btn">Buy Now</button>
+      </div>
+    </div>
+
+  </section>
+
+  <footer>
+    © 2026 Salsa Cake Shop | Made with 💖
+  </footer>
+
+</body>
+</html>
